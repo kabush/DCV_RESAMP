@@ -1,10 +1,14 @@
-To run this code you will need to link to your local spm matlab library in the header.
+RUN:
+run_all_experiments
 
-You will also need to create an output directory structure:
-./data
-./data/gen_data
-./data/dcv_data
-./data/class_data
-./data/rsmp_data
-./data/results
+NOTES:
+1) To run this code you will need to link to your local spm matlab library in the header.
+
+2)You will need to create an output directory structure if it does not exist already.
+   ./data
+   ./data/gen_data
+   ./data/dcv_data
+   ./data/class_data
+   ./data/rsmp_data
+   ./data/results
 
