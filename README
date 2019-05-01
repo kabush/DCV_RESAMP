@@ -1,0 +1,10 @@
+To run this code you will need to link to your local spm matlab library in the header.
+
+You will also need to create an output directory structure:
+./data
+./data/gen_data
+./data/dcv_data
+./data/class_data
+./data/rsmp_data
+./data/results
+
